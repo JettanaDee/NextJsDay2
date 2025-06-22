@@ -27,7 +27,7 @@ const payload = {
         setTodos(response.data);
  }
  const handlePost = async () => {    
-    await axios.post(url), payload;
+    await axios.post(url, payload);
  } 
 
  return (
