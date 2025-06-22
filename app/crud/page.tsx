@@ -1,7 +1,6 @@
 //import { create } from "./action"
 'use client'
 
-import { Product } from "@/generated/prisma";
 import axios from "axios";
 import { useEffect, useState } from "react"
 import Swal from "sweetalert2";
